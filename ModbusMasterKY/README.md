@@ -33,6 +33,49 @@ Registers
   - 0x16 - Mask Write Register
   - 0x17 - Read Write Multiple Registers
 
+
+
+
+
+readHoldingRegisterUInt16 KEYWORD2
+readHoldingRegisterUInt32 KEYWORD2
+readHoldingRegisterUInt64 KEYWORD2
+readHoldingRegisterInt16 KEYWORD2
+readHoldingRegisterInt32 KEYWORD2
+readHoldingRegisterInt64 KEYWORD2
+readHoldingRegisterFloat32 KEYWORD2
+
+readInputRegisterUInt16 KEYWORD2
+readInputRegisterUInt32 KEYWORD2
+readInputRegisterUInt64 KEYWORD2
+readInputRegisterInt16 KEYWORD2
+readInputRegisterInt32 KEYWORD2
+readInputRegisterInt64 KEYWORD2
+readInputRegisterFloat32 KEYWORD2
+
+readDatetimeHRegister KEYWORD2
+readDatetimeIRegister KEYWORD2
+writeDatetimeHR KEYWORD2
+
+writeSingleCoil	KEYWORD2
+writeSingleRegister	KEYWORD2
+writeMultipleCoils	KEYWORD2
+writeMultipleRegisters	KEYWORD2
+# NEW KeyWord BY KYCONG----------
+writeMultipleRegistersU32	KEYWORD2
+writeMultipleRegistersU64	KEYWORD2
+uint8_t writeMultipleRegistersU64_1 KEYWORD2
+uint8_t writeMultipleRegistersU64_2 KEYWORD2
+writeMultipleRegistersFloat32	KEYWORD2
+
+writeSingleRegisterInt16	KEYWORD2
+writeMultipleRegistersInt32 KEYWORD2
+writeMultipleRegistersInt64 KEYWORD2
+writeMultipleRegistersInt64_1 KEYWORD2
+writeMultipleRegistersInt64_2 KEYWORD2
+#-------------------------------------------
+maskWriteRegister	KEYWORD2
+readWriteMultipleRegisters	KEYWORD2
 Both full-duplex and half-duplex RS232/485 transceivers are supported. Callback functions are provided to toggle Data Enable (DE) and Receiver Enable (/RE) pins.
 
 
