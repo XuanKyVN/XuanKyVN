@@ -25,45 +25,7 @@ ModbusMaster	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-lowWord	KEYWORD2
-highWord	KEYWORD2
-LONG	KEYWORD2
 
-begin	KEYWORD2
-
-getResponseBuffer	KEYWORD2
-clearResponseBuffer	KEYWORD2
-setTransmitBuffer	KEYWORD2
-clearTransmitBuffer	KEYWORD2
-
-readCoils	KEYWORD2
-readDiscreteInputs	KEYWORD2
-readHoldingRegisters	KEYWORD2
-readInputRegisters	KEYWORD2
-#---------------------
-readHoldingRegisterUInt16 KEYWORD2
-readHoldingRegisterUInt32 KEYWORD2
-readHoldingRegisterUInt64 KEYWORD2
-readHoldingRegisterInt16 KEYWORD2
-readHoldingRegisterInt32 KEYWORD2
-readHoldingRegisterInt64 KEYWORD2
-readHoldingRegisterFloat32 KEYWORD2
-
-readInputRegisterUInt16 KEYWORD2
-readInputRegisterUInt32 KEYWORD2
-readInputRegisterUInt64 KEYWORD2
-readInputRegisterInt16 KEYWORD2
-readInputRegisterInt32 KEYWORD2
-readInputRegisterInt64 KEYWORD2
-readInputRegisterFloat32 KEYWORD2
-
-readDatetimeHRegister KEYWORD2
-readDatetimeIRegister KEYWORD2
-writeDatetimeHR KEYWORD2
-
-writeSingleCoil	KEYWORD2
-writeSingleRegister	KEYWORD2
-writeMultipleCoils	KEYWORD2
 # ModbusMaster
 [![GitHub release](https://img.shields.io/github/release/4-20ma/ModbusMaster.svg?maxAge=3600)][GitHub release]
 [![Travis](https://img.shields.io/travis/4-20ma/ModbusMaster.svg?maxAge=3600)][Travis]
